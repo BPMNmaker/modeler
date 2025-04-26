@@ -60,7 +60,7 @@ module.exports = {
       // when running in development mode (npm run dev and cypress)
       if (process.env.NODE_ENV === 'development') {
         // reduce the chunk-vendors size
-        externals.push('@processmaker/screen-builder/dist/vue-form-builder');
+        externals.push('@hmdshariati/screenn-builder/dist/vue-form-builder');
       }
       return externals;
     })(),
@@ -75,7 +75,7 @@ module.exports = {
 
       /* copy files required for dynamic import of rich text editor */
       plugins.push(new CopyPlugin([{
-        from: path.resolve(__dirname, 'node_modules/@processmaker/vue-form-elements/dist'),
+        from: path.resolve(__dirname, 'node_modules/@hmdshariati/vue-form-elements/dist'),
         to: path.resolve(__dirname, 'public/js'),
         ignore: ['demo.html'],
       }]));

@@ -1,6 +1,6 @@
 {
-  "name": "@processmaker/modeler",
-  "version": "1.68.9",
+  "name": "@hmdshariati/modeler",
+  "version": "1.68.81",
   "scripts": {
     "serve": "vue-cli-service serve --mode development",
     "test:unit": "vue-cli-service test:unit",
@@ -43,8 +43,8 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/vue-fontawesome": "^0.1.8",
-    "@processmaker/screen-builder": "3.5.7",
-    "@processmaker/vue-form-elements": "0.65.0",
+    "@hmdshariati/screenn-builder": "3.5.51",
+    "@hmdshariati/vue-form-elements": "0.65.2",
     "@processmaker/vue-multiselect": "2.3.0",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.4",
@@ -166,5 +166,19 @@
       "tests/**/*.js"
     ],
     "report-dir": "cypress-coverage"
-  }
+  },
+  "description": "[![CircleCI](https://circleci.com/gh/ProcessMaker/modeler.svg?style=svg)](https://circleci.com/gh/ProcessMaker/modeler)",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BPMNmaker/modeler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BPMNmaker/modeler/issues"
+  },
+  "homepage": "https://github.com/BPMNmaker/modeler#readme"
 }

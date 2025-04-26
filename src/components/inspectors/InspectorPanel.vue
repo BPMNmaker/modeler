@@ -46,7 +46,7 @@
 <script>
 import Vue from 'vue';
 
-import { renderer } from '@processmaker/screen-builder';
+import { renderer } from '@hmdshariati/screenn-builder';
 
 import {
   FormAccordion,
@@ -57,8 +57,8 @@ import {
   FormRadioButtonGroup,
   FormSelect,
   FormTextArea,
-} from '@processmaker/vue-form-elements';
-import '@processmaker/vue-form-elements/dist/vue-form-elements.css';
+} from '@hmdshariati/vue-form-elements';
+import '@hmdshariati/vue-form-elements/dist/vue-form-elements.css';
 import store from '@/store';
 import { id as sequenceFlowId } from '@/components/nodes/sequenceFlow';
 import noop from 'lodash/noop';
