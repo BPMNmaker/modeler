@@ -1,6 +1,6 @@
 {
   "name": "@hmdshariati/modeler",
-  "version": "1.68.82",
+  "version": "1.68.83",
   "scripts": {
     "serve": "vue-cli-service serve --mode development",
     "test:unit": "vue-cli-service test:unit",
