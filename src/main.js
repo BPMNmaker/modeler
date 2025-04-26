@@ -8,7 +8,7 @@ import translations from '@/setup/translations.json';
 import * as VueDeepSet from 'vue-deepset';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
-import ScreenBuilder from '@processmaker/screen-builder';
+import ScreenBuilder from '@hmdshariati/screenn-builder';
 import { Multiselect } from '@processmaker/vue-multiselect';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';

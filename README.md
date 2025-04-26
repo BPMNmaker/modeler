@@ -4,20 +4,22 @@
 
 `@processmaker/modeler` is a Vue.js based BPMN modeler scaffolded using [Vue CLI 3](https://cli.vuejs.org/).
 
-- [Project setup](#project-setup)
-- [Testing](#testing)
-- [Architecture](#architecture)
-  - [Global event bus](#global-event-bus)
-    - [`modeler-init`](#modeler-init)
-    - [`modeler-start`](#modeler-start)
-    - [`modeler-validate`](#modeler-validate)
-    - [`modeler-change`](#modeler-change)
-  - [Undo/redo store](#undoredo-store)
-  - [Validation](#validation)
-    - [Adding a new lint rule](#adding-a-new-lint-rule)
-    - [Adding validation rules during runtime](#adding-validation-rules-during-runtime)
-- [Examples](#examples)
-  - [Adding a new component](#adding-a-new-component)
+- [ProcessMaker BPMN modeler](#processmaker-bpmn-modeler)
+  - [Project setup](#project-setup)
+  - [Docker Env](#docker-env)
+  - [Testing](#testing)
+  - [Architecture](#architecture)
+    - [Global event bus](#global-event-bus)
+      - [`modeler-init`](#modeler-init)
+      - [`modeler-start`](#modeler-start)
+      - [`modeler-validate`](#modeler-validate)
+      - [`modeler-change`](#modeler-change)
+    - [Undo/redo store](#undoredo-store)
+    - [Validation](#validation)
+      - [Adding a new lint rule](#adding-a-new-lint-rule)
+      - [Adding validation rules during runtime](#adding-validation-rules-during-runtime)
+  - [Examples](#examples)
+    - [Adding a new component](#adding-a-new-component)
 
 ## Project setup
 
@@ -259,7 +261,7 @@ export default {
       items: [
         // Each item corresponds to a form element. 
         {
-          // Component can be a custom Vue component or a reference to a form component from @processmaker/vue-form-elements
+          // Component can be a custom Vue component or a reference to a form component from @hmdshariati/vue-form-elements
           component: 'FormText',
           config: {
             label: 'Custom Component Label',
